@@ -1,0 +1,7 @@
+pets = {"cats": ["fluffy", "snowball", "garfield"], "dogs": ["toto", "kujo", "spot"]}
+
+# print out the following sentence - NOTE - {} are to show WHAT should be formatted in
+
+# I have the {cats} {fluffy}, {snowball}, and {garfield}, and the {dogs} {toto}, {kujo}, and {spot}.
+
+print(f"I have the {pets[1]} {cats[0][1]}, {[0][2]}, and {[0][3]}, and the {pets[2]} {dogs[0][1]}, {dogs[0][2]}, and {dogs[0][3]}.)
